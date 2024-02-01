@@ -1,3 +1,4 @@
+// This is the intra-page navigation that appears on the right side.
 import React from 'react';
 import Link from 'next/link';
 
@@ -40,19 +41,21 @@ export function TableOfContents({toc}) {
             position: sticky;
             top: calc(2.5rem + var(--top-nav-height));
             max-height: calc(100vh - var(--top-nav-height));
-            flex: 0 0 auto;
+            flex: 0 0 240px;
             align-self: flex-start;
             margin-bottom: 1rem;
-            padding: 0.5rem 0 0;
+            padding: 0.25rem 0 0;
             border-left: 1px solid var(--border-color);
           }
           ul {
             margin: 0;
-            padding: 0 1.5rem;
+            padding: 0;
           }
           li {
             list-style-type: none;
-            margin: 0 0 1rem;
+            margin: 0 0 1rem 1.5rem;
+            font-size: 14px;
+            font-weight: 400;
           }
           li :global(a) {
             text-decoration: none;
@@ -63,6 +66,11 @@ export function TableOfContents({toc}) {
           }
           li.padded {
             padding-left: 1rem;
+          }
+          @media screen and (max-width: 1000px) {
+            nav {
+              display: none;
+            }
           }
         `}
       </style>

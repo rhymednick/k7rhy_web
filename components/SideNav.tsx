@@ -4,8 +4,12 @@ import Link from 'next/link';
 
 const items = [
   {
-    title: 'Get started',
-    links: [{href: '/docs', children: 'Overview'}],
+    title: 'Overview',
+    links: [
+      {href: '/docs', children: 'The Basics'},
+      {href: '/docs/antennas', children: 'My Antennas'},
+      {href: '/docs/log', children: 'Call Log'}
+    ],
   },
 ];
 
@@ -35,10 +39,9 @@ export function SideNav() {
             position: sticky;
             top: var(--top-nav-height);
             height: calc(100vh - var(--top-nav-height));
-            flex: 0 0 auto;
+            flex: 0 0 240px;
             overflow-y: auto;
             padding: 2.5rem 2rem 2rem;
-            border-right: 1px solid var(--border-color);
           }
           span {
             font-size: larger;
@@ -50,7 +53,9 @@ export function SideNav() {
           }
           li {
             list-style: none;
-            margin: 0;
+            margin: 0 0 0.5rem 0.7rem;
+            font-size: 14px;
+            font-weight: 400;
           }
           li :global(a) {
             text-decoration: none;
@@ -58,6 +63,11 @@ export function SideNav() {
           li :global(a:hover),
           li.active :global(a) {
             text-decoration: underline;
+          }
+          @media screen and (max-width: 600px) {
+            nav {
+              display: none;
+            }
           }
         `}
       </style>
