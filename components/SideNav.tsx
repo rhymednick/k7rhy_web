@@ -14,13 +14,13 @@ const items = [
   {
     title: 'Kits',
     links: [
-      {href: '/docs/DL20W', children: '20W Dummy Load (BNC)'}
+      {href: '/DL20W', children: '20W Dummy Load Kit (BNC)'}
     ],
   }, 
   {
     title: 'Documentation',
     links: [
-      {href: '/docs/DL20W', children: '20W Dummy Load (BNC)'}
+      {href: '/docs/dl20w_build_guide', children: '20W Dummy Load Build Guide'}
     ],
   }, 
 ];
