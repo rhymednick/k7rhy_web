@@ -8,6 +8,7 @@
   "dependencies": {
     "@markdoc/markdoc": "latest",
     "@markdoc/next.js": "latest",
+    "@stackbit/types": "^2.0.2",
     "next": "latest",
     "prismjs": "latest",
     "react": "latest",
