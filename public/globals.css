@@ -33,3 +33,16 @@ h2 {
 a {
   color: rgba(75, 85, 99, 1);
 }
+
+table, th, td {
+  border: 1px solid var(--border-color);
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  padding: 5px
+}
+
+th {
+  background-color: #cae2e2;
+}
