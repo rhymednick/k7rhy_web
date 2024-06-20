@@ -1,31 +1,15 @@
 ---
-title: The Basics
+title: Documentation
 ---
 
 # {% $markdoc.frontmatter.title %}
 
-My QTH
-
-## My Shack
-
-## How I Operate
-
-## QSOs
 
 {% table %}
-
-- Function {% width="25%" %}
-- Returns  {% colspan=2 %}
-- Example  {% align=$side %}
-
+- Name {% width="25%" %}
+- Description  {% colspan=2 %}
+---
+- [20W Dummy Load Build Guide](/docs/dl20w_build_guide)
+- Detailed, illustrated, step-by-step instructions for assembling the 20W dummy load. 
 {% /table %}
 
-# Examples {% #examples %}
-
-{% table .striped #exampletable %}
-- One 
-- Two
-- Three
-
-
-{% /table %}

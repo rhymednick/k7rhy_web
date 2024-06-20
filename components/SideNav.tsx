@@ -3,6 +3,7 @@ import {useRouter} from 'next/router';
 import Link from 'next/link';
 
 const items = [
+  /*
   {
     title: 'Introduction',
     links: [
@@ -10,7 +11,7 @@ const items = [
       {href: '/docs/antennas', children: 'My Antennas'},
       {href: '/docs/log', children: 'Call Log'}
     ],
-  },
+  },*/
   {
     title: 'Kits',
     links: [
