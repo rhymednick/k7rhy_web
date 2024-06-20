@@ -5,4 +5,4 @@ description: Product info page for 20W dummy load kit with BNC connector.
 
 # {% $markdoc.frontmatter.title %}
 
-![Images](/DL20W_BNC.png)
+![Images](/images/DL20W_BNC.png)
