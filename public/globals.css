@@ -23,7 +23,8 @@ p {
 
 
 h1 {
-  font-size: 40px;
+  font-size: 24pt;
+  margin-top: 10px;
 }
 
 h2 {
@@ -40,7 +41,7 @@ table, th, td {
   text-align: left;
 }
 th, td {
-  padding: 5px
+  padding: 10px
 }
 
 th {
