@@ -4,13 +4,25 @@ import Link from 'next/link';
 
 const items = [
   {
-    title: 'Overview',
+    title: 'Introduction',
     links: [
       {href: '/docs', children: 'The Basics'},
       {href: '/docs/antennas', children: 'My Antennas'},
       {href: '/docs/log', children: 'Call Log'}
     ],
   },
+  {
+    title: 'Kits',
+    links: [
+      {href: '/docs/DL20W', children: '20W Dummy Load (BNC)'}
+    ],
+  }, 
+  {
+    title: 'Documentation',
+    links: [
+      {href: '/docs/DL20W', children: '20W Dummy Load (BNC)'}
+    ],
+  }, 
 ];
 
 export function SideNav() {
