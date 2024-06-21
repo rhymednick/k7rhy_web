@@ -8,7 +8,7 @@ date: "2024-06-20"
 {% table .noborder %}
 ---
 * ![Images](/images/DL20W_BNC.png) 
-* Order Now 
+* [Buy Now](https://ca0f39-2e.myshopify.com/products/20w-dummy-load-kit?utm_source=copyToPasteBoard&utm_medium=product-links&utm_content=web) 
 {% /table %}
 
 Unleash the full potential of your ham radio setup with our 20W Dummy Load Kit, designed for both novice and experienced operators. Whether you’re testing, adjusting, or simply experimenting with your equipment, this kit provides the perfect solution for ensuring your transmitter is optimally tuned without transmitting signals on the air. The kit is shipped unassembled and without an enclosure.;
