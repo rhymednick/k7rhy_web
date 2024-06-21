@@ -11,17 +11,19 @@ const items = [
       {href: '/docs/antennas', children: 'My Antennas'},
       {href: '/docs/log', children: 'Call Log'}
     ],
+
   },*/
   {
     title: 'Kits',
     links: [
       {href: '/DL20W', children: '20W Dummy Load Kit (BNC)'}
     ],
+    
   }, 
   {
     title: 'Documentation',
     links: [
-      {href: '/docs/dl20w_build_guide', children: '20W Dummy Load Build Guide'}
+      {href: '/docs/dl20w_assembly_guide', children: '20W Dummy Load Assembly Guide'}
     ],
   }, 
 ];

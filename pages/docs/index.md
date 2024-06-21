@@ -5,7 +5,7 @@ title: Documentation
 # {% $markdoc.frontmatter.title %}
 
 
-{% table borders=1%}
+{% table style="solid_border" %}
 - Topic {% align="left" %}
 - Description  {% align="left" %}
 ---

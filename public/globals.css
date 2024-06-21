@@ -34,13 +34,12 @@ h2 {
 a {
   color: rgba(75, 85, 99, 1);
 }
-.noborder {
-  border: none;
-
-}
-table, th, td {
+table .solid_border {
   border: 1px solid var(--border-color);
   border-collapse: collapse;
+}
+
+table, th, td {
   text-align: left;
 }
 th, td {
