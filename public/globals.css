@@ -34,7 +34,10 @@ h2 {
 a {
   color: rgba(75, 85, 99, 1);
 }
+.noborder {
+  border: none;
 
+}
 table, th, td {
   border: 1px solid var(--border-color);
   border-collapse: collapse;

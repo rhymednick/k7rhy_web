@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export function TableOfContents({children: links, landing}) {
     const copyright = (
-        <div>©️ 2024 Rhy Mednick - All Rights Reserved</div>
+        <div>Copyright ©️ 2024 K7RHY - All Rights Reserved</div>
       );
     
       const disclaimer = (

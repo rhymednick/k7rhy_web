@@ -5,7 +5,7 @@ date: "2024-06-20"
 ---
 
 # {% $markdoc.frontmatter.title %}
-{% table %}
+{% table .noborder %}
 ---
 * ![Images](/images/DL20W_BNC.png) 
 * Order Now 
