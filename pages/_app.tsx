@@ -13,7 +13,7 @@ import '../public/globals.css'
 
 import type { AppProps } from 'next/app'
 import type { MarkdocNextJsPageProps } from '@markdoc/next.js'
-import { Footer } from '@docsearch/react/dist/esm/Footer';
+//import { Footer } from '@docsearch/react/dist/esm/Footer';
 
 const TITLE = 'Markdoc';
 const DESCRIPTION = 'A powerful, flexible, Markdown-based authoring framework';
@@ -83,7 +83,7 @@ export default function MyApp({ Component, pageProps }: AppProps<MyAppProps>) {
         <TableOfContents toc={toc} />
       </div>
 
-      <Footer />
+
       
       <style jsx>
         {`
