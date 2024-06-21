@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function Footer() {
+export function xFooter() {
     const copyright = (
         <div>Copyright ©️ 2024 K7RHY - All Rights Reserved</div>
       );
