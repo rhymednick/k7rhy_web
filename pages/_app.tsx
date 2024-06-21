@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
-import { SideNav, TableOfContents, TopNav } from '../components';
+import { SideNav, TableOfContents, TopNav, Footer } from '../components';
 
 import 'prismjs';
 // Import other Prism themes here
@@ -13,7 +13,7 @@ import '../public/globals.css'
 
 import type { AppProps } from 'next/app'
 import type { MarkdocNextJsPageProps } from '@markdoc/next.js'
-import { Footer } from '@docsearch/react/dist/esm/Footer';
+//import { Footer } from '@docsearch/react/dist/esm/Footer';
 
 const TITLE = 'Markdoc';
 const DESCRIPTION = 'A powerful, flexible, Markdown-based authoring framework';
