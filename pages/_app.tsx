@@ -82,7 +82,8 @@ export default function MyApp({ Component, pageProps }: AppProps<MyAppProps>) {
         </main>
         <TableOfContents toc={toc} />
       </div>
-      <Footer
+
+      <Footer />
       
       <style jsx>
         {`
