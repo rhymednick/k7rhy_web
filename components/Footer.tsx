@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-export function TableOfContents({children: links, landing}) {
+export function Footer() {
     const copyright = (
         <div>Copyright ©️ 2024 K7RHY - All Rights Reserved</div>
       );
