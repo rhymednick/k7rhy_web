@@ -2,7 +2,9 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
-import { SideNav, TableOfContents, TopNav } from '../components';
+import { Footer, TableOfContents, TopNav } from '../components';
+import SidebarNavigation from '../components/SidebarNavigation';
+import DocOptionSelector from '../components/DocOptionSelector';
 
 import 'prismjs';
 // Import other Prism themes here
@@ -14,9 +16,10 @@ import '../public/globals.css'
 import type { AppProps } from 'next/app'
 import type { MarkdocNextJsPageProps } from '@markdoc/next.js'
 //import { Footer } from '@docsearch/react/dist/esm/Footer';
+import config from '../site.config';
 
-const TITLE = 'Markdoc';
-const DESCRIPTION = 'A powerful, flexible, Markdown-based authoring framework';
+const TITLE = 'K7RHY';
+const DESCRIPTION = 'Ham Radio Kits';
 
 function collectHeadings(node, sections = []) {
   if (node) {
@@ -73,14 +76,18 @@ export default function MyApp({ Component, pageProps }: AppProps<MyAppProps>) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <TopNav>
-        <Link href="/docs">Docs</Link>
+        <Link href="/products">Products</Link>
+        <Link href="/guides">Guides</Link>
       </TopNav>
       <div className="page">
-        <SideNav />
+        <SidebarNavigation pages={config.pages}/>
         <main className="flex column">
           <Component {...pageProps} />
+          <Footer />
         </main>
+        
         <TableOfContents toc={toc} />
+        
       </div>
 
 

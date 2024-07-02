@@ -1,62 +1,19 @@
 import React from 'react';
 
-export function xFooter() {
+export function Footer() {
     const copyright = (
         <div>Copyright ©️ 2024 K7RHY - All Rights Reserved</div>
       );
     
-      const disclaimer = (
-        <span className="disclaimer">
-          This site was{' '}
-          <a href="" className="live-edit">
-            built using Markdoc
-          </a>
-          <style jsx>
-            {`
-              .disclaimer {
-                color: rgba(24, 24, 27, 0.5);
-                padding-left: 2rem;
-                font-size: 15px;
-                font-weight: 400;
-                line-height: 27px;
-              }
-    
-              .disclaimer button {
-                display: inline-block;
-                padding: 0;
-                color: inherit;
-                text-decoration: underline;
-                font-weight: regular;
-              }
-    
-              :global(body.dark) .disclaimer {
-                color: var(--white);
-              }
-    
-              @media screen and (max-width: 1000px) {
-                .disclaimer {
-                  display: none;
-                }
-              }
-            `}
-          </style>
-        </span>
-      );
-    
-    
       return (
         <>
           <footer className="desktop">
-            <div className="flex">
-              <div className="left gap">{copyright}</div>
-              <div className="right gap">
-                {disclaimer}
-              </div>
+            <div className="flex gap">
+              {copyright}
             </div>
           </footer>
           <footer className="mobile gap">
             {copyright}
-            {disclaimer}
           </footer>
           <style jsx>
             {`

@@ -5,13 +5,15 @@ date: "2024-06-20"
 ---
 
 # {% $markdoc.frontmatter.title %}
+
 {% table .noborder %}
 ---
-* ![Images](/images/DL20W_BNC.png) 
-* [Buy Now](https://ca0f39-2e.myshopify.com/products/20w-dummy-load-kit?utm_source=copyToPasteBoard&utm_medium=product-links&utm_content=web) 
+* ![Images](/images/DL20W_BNC.png "Picture of the K7RHY 20W dummy load") 
+* [Buy Now](https://ca0f39-2e.myshopify.com/products/20w-dummy-load-kit?utm_source=copyToPasteBoard&utm_medium=product-links&utm_content=web)
 {% /table %}
 
-Unleash the full potential of your ham radio setup with our 20W Dummy Load Kit, designed for both novice and experienced operators. Whether you’re testing, adjusting, or simply experimenting with your equipment, this kit provides the perfect solution for ensuring your transmitter is optimally tuned without transmitting signals on the air. The kit is shipped unassembled and without an enclosure.;
+
+Unleash the full potential of your ham radio setup with our 20W Dummy Load Kit, designed for both novice and experienced operators. Whether you’re testing, adjusting, or simply experimenting with your equipment, this kit provides the perfect solution for ensuring your transmitter is optimally tuned without transmitting signals on the air. The kit is shipped unassembled and without an enclosure.
 
 ## Key Features
 * **High-Quality Components:** Each kit includes precision resistors and robust, heat-resistant materials designed to withstand continuous usage at 20 watts.
@@ -22,7 +24,7 @@ Unleash the full potential of your ham radio setup with our 20W Dummy Load Kit, 
 * **Educational Experience:** Not only is this a practical tool for your radio activities, but it’s also a great project for learning more about the fundamentals of radio electronics and antenna theory. 
 
 ## Product Specifications
-* **Power Handling:** 20W continuous, 100W peak
+* **Power Handling:** 20W continuous, 100W peak (momentary)
 * **Impedance:** 50 ohms
 * **Dimensions:** 4.5" x 2" x 0.75" (12cm x 5cm x 2cm)
 * **Frequency Range:** 0-455 MHz
